@@ -236,4 +236,8 @@
   .news__img-left {
     height: 220px;
   }
+
+  .footer__input {
+    margin-bottom: 10px;
+  }
 }
