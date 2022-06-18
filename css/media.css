@@ -8,11 +8,50 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .news__wrapper {
+    display: block;
+  }
+
+  .news__content-left {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 60px;
+  }
+
+  .news__img-left {
+    margin: 0 auto 20px;
+  }
+
+  .news__subtitle {
+    text-align: center;
+  }
+
+  .news__descr {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+
+  .news__author {
+    display: block;
+    text-align: center;
+  }
+
+  .footer {
+    padding: 45px 0 40px;
+  }
+}
+
 @media (max-width: 1110px) {
 
   .popular,
-  .offers {
+  .offers,
+  .news {
     padding-top: 70px;
+  }
+
+  .news {
+    padding-bottom: 70px;
   }
 
   .popular__cards {
@@ -48,6 +87,19 @@
     top: 0;
   }
 
+  .header__booking {
+    position: fixed;
+    display: block;
+    top: -200%;
+    right: calc(50% - 135px);
+    transition: all 0.5s;
+    z-index: 1;
+  }
+
+  .header__booking.active {
+    top: 60%;
+  }
+
   .header__item {
     margin-left: 30px;
     font-size: 20px;
@@ -74,13 +126,26 @@
     margin-bottom: 15px;
   }
 
-  .header__text {
+  .header__text,
+  .news__text {
     margin-bottom: 20px;
   }
 
   .header__explore {
     height: 45px;
     width: 140px;
+  }
+
+  .footer__container {
+    display: block;
+  }
+
+  .footer__social {
+    margin-bottom: 40px;
+  }
+
+  .footer__items {
+    margin-bottom: 40px;
   }
 }
 
@@ -97,8 +162,13 @@
   }
 
   .popular,
-  .offers {
+  .offers,
+  .news {
     padding-top: 45px;
+  }
+
+  .news {
+    padding-bottom: 45px;
   }
 
   .title {
@@ -126,10 +196,44 @@
   .offers__text {
     margin: 0 auto 30px;
   }
+
+  .news__content-left {
+    margin-bottom: 20px;
+  }
+
+  .news__box {
+    display: block;
+    padding-top: 20px;
+    border-top: 1px solid #6fbbcd87;
+  }
+
+  .news__box:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .news__img {
+    margin: 0 auto 10px;
+  }
+
+  .news__subtitle {
+    margin-bottom: 0;
+  }
+
+  .news__descr {
+    text-align: center;
+  }
 }
 
 @media (max-width: 580px) {
+  .title {
+    font-size: 34px;
+  }
+
   .offers__slider {
     max-width: 292px;
+  }
+
+  .news__img-left {
+    height: 220px;
   }
 }
