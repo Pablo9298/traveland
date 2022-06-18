@@ -1,0 +1,135 @@
+@media (max-width: 1440px) {
+  .slick-prev {
+    left: calc(50% - 80px);
+  }
+
+  .slick-next {
+    right: calc(50% - 75px);
+  }
+}
+
+@media (max-width: 1110px) {
+
+  .popular,
+  .offers {
+    padding-top: 70px;
+  }
+
+  .popular__cards {
+    justify-content: center;
+  }
+
+  .card {
+    margin: 5px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header__nav {
+    justify-content: normal;
+  }
+
+  .header__items {
+    position: fixed;
+    display: block;
+    overflow: hidden;
+    top: -200%;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #3c2827;
+    box-shadow: 0 0 100px rgb(12 11 11);
+    padding-top: 150px;
+    transition: all 0.5s;
+    z-index: 1;
+  }
+
+  .header__items.active {
+    top: 0;
+  }
+
+  .header__item {
+    margin-left: 30px;
+    font-size: 20px;
+  }
+
+  .header__item:not(:last-child) {
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
+  .header__booking {
+    padding: 8px;
+  }
+
+  .header__burger {
+    display: block;
+    margin: 0 5px 0 auto;
+    z-index: 2;
+  }
+
+  .header__title {
+    max-width: 550px;
+    font-size: 45px;
+    margin-bottom: 15px;
+  }
+
+  .header__text {
+    margin-bottom: 20px;
+  }
+
+  .header__explore {
+    height: 45px;
+    width: 140px;
+  }
+}
+
+@media (max-height: 650px) {
+  .header__container {
+    padding-top: 70px;
+  }
+}
+
+@media (max-width: 650px) {
+  .header__title {
+    max-width: 317px;
+    font-size: 26px;
+  }
+
+  .popular,
+  .offers {
+    padding-top: 45px;
+  }
+
+  .title {
+    font-size: 35px;
+  }
+
+  .popular__title {
+    margin-bottom: 10px;
+  }
+
+  .popular__text {
+    margin: 0 auto 30px;
+  }
+
+  .card__img {
+    height: 281px;
+    margin-bottom: 10px;
+  }
+
+  .card__descr {
+    margin: 0px auto 20px;
+    padding: 0 10px;
+  }
+
+  .offers__text {
+    margin: 0 auto 30px;
+  }
+}
+
+@media (max-width: 580px) {
+  .offers__slider {
+    max-width: 292px;
+  }
+}

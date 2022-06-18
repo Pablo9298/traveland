@@ -11,10 +11,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Gelasio:wght@500;700&family=Roboto:wght@400;500&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
-  <link rel="stylesheet" type="text/css" href="css/slick.css" />
-  <!-- <link rel="stylesheet" type="text/css" href="css/slick-theme.css" /> -->
   <title>Trevland | Home page</title>
 </head>
 
@@ -51,6 +50,11 @@
           </ul>
 
           <a class="header__booking btn" href="#">Booking now</a>
+
+          <button class="header__burger burger">
+            <span class="burger__line"></span>
+            <span class="sr-only">Mobile menu</span>
+          </button>
         </nav>
       </div>
     </div>
@@ -123,223 +127,162 @@
     </div>
 
     <div class="offers__slider slider">
-      <ul class="slider__items">
-        <li class="slider__item">
-          <img class="slider__img" src="images/slider/1.jpg" alt="nature">
-          <a class="slider__link" href="#">
-            <h5 class="slider__title">Statue of Liberty.</h5>
-          </a>
-          <div class="slider__box">
-            <a class="slider__place" href="#">New York</a>
-            <div class="slider__star"></div>
-            <span class="slider__rating">4.5</span>
-          </div>
-          <p class="slider__text">4 Day 5 Nights</p>
-          <p class="slider__price">$450/ <span>person</span></p>
-        </li>
+      <div class="slider__item">
+        <img class="slider__img" src="images/slider/1.jpg" alt="nature">
+        <a class="slider__link" href="#">
+          <h5 class="slider__title">Statue of Liberty.</h5>
+        </a>
+        <div class="slider__box">
+          <a class="slider__place" href="#">New York</a>
+          <div class="slider__star"></div>
+          <span class="slider__rating">4.5</span>
+        </div>
+        <p class="slider__text">4 Day 5 Nights</p>
+        <p class="slider__price">$450/ <span>person</span></p>
+      </div>
 
-        <li class="slider__item">
-          <img class="slider__img" src="images/slider/2.jpg" alt="nature">
-          <a class="slider__link" href="#">
-            <h5 class="slider__title">The Great Wall</h5>
-          </a>
-          <div class="slider__box">
-            <a class="slider__place" href="#">China</a>
-            <div class="slider__star"></div>
-            <span class="slider__rating">4.9</span>
-          </div>
-          <p class="slider__text">7 Day 8 Nights</p>
-          <p class="slider__price" href="#">$850/ <span>person</span></p>
-        </li>
+      <div class="slider__item">
+        <img class="slider__img" src="images/slider/2.jpg" alt="nature">
+        <a class="slider__link" href="#">
+          <h5 class="slider__title">The Great Wall</h5>
+        </a>
+        <div class="slider__box">
+          <a class="slider__place" href="#">China</a>
+          <div class="slider__star"></div>
+          <span class="slider__rating">4.9</span>
+        </div>
+        <p class="slider__text">7 Day 8 Nights</p>
+        <p class="slider__price" href="#">$850/ <span>person</span></p>
+      </div>
 
-        <li class="slider__item">
-          <img class="slider__img" src="images/slider/3.jpg" alt="nature">
-          <a class="slider__link" href="#">
-            <h5 class="slider__title">Dizin</h5>
-          </a>
-          <div class="slider__box">
-            <a class="slider__place" href="#">Iran</a>
-            <div class="slider__star"></div>
-            <span class="slider__rating">4.8</span>
-          </div>
-          <p class="slider__text">5 Day 6 Nights</p>
-          <p class="slider__price">$550/ <span>person</span></p>
-        </li>
+      <div class="slider__item">
+        <img class="slider__img" src="images/slider/3.jpg" alt="nature">
+        <a class="slider__link" href="#">
+          <h5 class="slider__title">Dizin</h5>
+        </a>
+        <div class="slider__box">
+          <a class="slider__place" href="#">Iran</a>
+          <div class="slider__star"></div>
+          <span class="slider__rating">4.8</span>
+        </div>
+        <p class="slider__text">5 Day 6 Nights</p>
+        <p class="slider__price">$550/ <span>person</span></p>
+      </div>
 
-        <li class="slider__item">
-          <img class="slider__img" src="images/slider/4.jpg" alt="nature">
-          <a class="slider__link" href="#">
-            <h5 class="slider__title">Sajek Valley</h5>
-          </a>
-          <div class="slider__box">
-            <a class="slider__place" href="#">Bangladesh</a>
-            <div class="slider__star"></div>
-            <span class="slider__rating">4.7</span>
-          </div>
-          <p class="slider__text">3 Day 4 Nights</p>
-          <p class="slider__price">$400/ <span>person</span></p>
-        </li>
+      <div class="slider__item">
+        <img class="slider__img" src="images/slider/4.jpg" alt="nature">
+        <a class="slider__link" href="#">
+          <h5 class="slider__title">Sajek Valley</h5>
+        </a>
+        <div class="slider__box">
+          <a class="slider__place" href="#">Bangladesh</a>
+          <div class="slider__star"></div>
+          <span class="slider__rating">4.7</span>
+        </div>
+        <p class="slider__text">3 Day 4 Nights</p>
+        <p class="slider__price">$400/ <span>person</span></p>
+      </div>
 
-        <li class="slider__item">
-          <img class="slider__img" src="images/slider/5.jpg" alt="nature">
-          <a class="slider__link" href="#">
-            <h5 class="slider__title">Osaka Castle</h5>
-          </a>
-          <div class="slider__box">
-            <a class="slider__place" href="#">Japan</a>
-            <div class="slider__star"></div>
-            <span class="slider__rating">4.6</span>
-          </div>
-          <p class="slider__text">4 Day 5 Nights</p>
-          <p class="slider__price">$700/ <span>person</span></p>
-        </li>
+      <div class="slider__item">
+        <img class="slider__img" src="images/slider/5.jpg" alt="nature">
+        <a class="slider__link" href="#">
+          <h5 class="slider__title">Osaka Castle</h5>
+        </a>
+        <div class="slider__box">
+          <a class="slider__place" href="#">Japan</a>
+          <div class="slider__star"></div>
+          <span class="slider__rating">4.6</span>
+        </div>
+        <p class="slider__text">4 Day 5 Nights</p>
+        <p class="slider__price">$700/ <span>person</span></p>
+      </div>
 
+      <div class="slider__item">
+        <img class="slider__img" src="images/slider/1.jpg" alt="nature">
+        <a class="slider__link" href="#">
+          <h5 class="slider__title">Statue of Liberty.</h5>
+        </a>
+        <div class="slider__box">
+          <a class="slider__place" href="#">New York</a>
+          <div class="slider__star"></div>
+          <span class="slider__rating">4.5</span>
+        </div>
+        <p class="slider__text">4 Day 5 Nights</p>
+        <p class="slider__price">$450/ <span>person</span></p>
+      </div>
 
+      <div class="slider__item">
+        <img class="slider__img" src="images/slider/4.jpg" alt="nature">
+        <a class="slider__link" href="#">
+          <h5 class="slider__title">Sajek Valley</h5>
+        </a>
+        <div class="slider__box">
+          <a class="slider__place" href="#">Bangladesh</a>
+          <div class="slider__star"></div>
+          <span class="slider__rating">4.7</span>
+        </div>
+        <p class="slider__text">3 Day 4 Nights</p>
+        <p class="slider__price">$400/ <span>person</span></p>
+      </div>
 
-        <li class="slider__item">
-          <img class="slider__img" src="images/slider/1.jpg" alt="nature">
-          <a class="slider__link" href="#">
-            <h5 class="slider__title">Statue of Liberty.</h5>
-          </a>
-          <div class="slider__box">
-            <a class="slider__place" href="#">New York</a>
-            <div class="slider__star"></div>
-            <span class="slider__rating">4.5</span>
-          </div>
-          <p class="slider__text">4 Day 5 Nights</p>
-          <p class="slider__price">$450/ <span>person</span></p>
-        </li>
+      <div class="slider__item">
+        <img class="slider__img" src="images/slider/1.jpg" alt="nature">
+        <a class="slider__link" href="#">
+          <h5 class="slider__title">Statue of Liberty.</h5>
+        </a>
+        <div class="slider__box">
+          <a class="slider__place" href="#">New York</a>
+          <div class="slider__star"></div>
+          <span class="slider__rating">4.5</span>
+        </div>
+        <p class="slider__text">4 Day 5 Nights</p>
+        <p class="slider__price">$450/ <span>person</span></p>
+      </div>
 
-        <li class="slider__item">
-          <img class="slider__img" src="images/slider/2.jpg" alt="nature">
-          <a class="slider__link" href="#">
-            <h5 class="slider__title">The Great Wall</h5>
-          </a>
-          <div class="slider__box">
-            <a class="slider__place" href="#">China</a>
-            <div class="slider__star"></div>
-            <span class="slider__rating">4.9</span>
-          </div>
-          <p class="slider__text">7 Day 8 Nights</p>
-          <p class="slider__price" href="#">$850/ <span>person</span></p>
-        </li>
+      <div class="slider__item">
+        <img class="slider__img" src="images/slider/4.jpg" alt="nature">
+        <a class="slider__link" href="#">
+          <h5 class="slider__title">Sajek Valley</h5>
+        </a>
+        <div class="slider__box">
+          <a class="slider__place" href="#">Bangladesh</a>
+          <div class="slider__star"></div>
+          <span class="slider__rating">4.7</span>
+        </div>
+        <p class="slider__text">3 Day 4 Nights</p>
+        <p class="slider__price">$400/ <span>person</span></p>
+      </div>
 
-        <li class="slider__item">
-          <img class="slider__img" src="images/slider/3.jpg" alt="nature">
-          <a class="slider__link" href="#">
-            <h5 class="slider__title">Dizin</h5>
-          </a>
-          <div class="slider__box">
-            <a class="slider__place" href="#">Iran</a>
-            <div class="slider__star"></div>
-            <span class="slider__rating">4.8</span>
-          </div>
-          <p class="slider__text">5 Day 6 Nights</p>
-          <p class="slider__price">$550/ <span>person</span></p>
-        </li>
+      <div class="slider__item">
+        <img class="slider__img" src="images/slider/1.jpg" alt="nature">
+        <a class="slider__link" href="#">
+          <h5 class="slider__title">Statue of Liberty.</h5>
+        </a>
+        <div class="slider__box">
+          <a class="slider__place" href="#">New York</a>
+          <div class="slider__star"></div>
+          <span class="slider__rating">4.5</span>
+        </div>
+        <p class="slider__text">4 Day 5 Nights</p>
+        <p class="slider__price">$450/ <span>person</span></p>
+      </div>
 
-        <li class="slider__item">
-          <img class="slider__img" src="images/slider/4.jpg" alt="nature">
-          <a class="slider__link" href="#">
-            <h5 class="slider__title">Sajek Valley</h5>
-          </a>
-          <div class="slider__box">
-            <a class="slider__place" href="#">Bangladesh</a>
-            <div class="slider__star"></div>
-            <span class="slider__rating">4.7</span>
-          </div>
-          <p class="slider__text">3 Day 4 Nights</p>
-          <p class="slider__price">$400/ <span>person</span></p>
-        </li>
-
-        <li class="slider__item">
-          <img class="slider__img" src="images/slider/5.jpg" alt="nature">
-          <a class="slider__link" href="#">
-            <h5 class="slider__title">Osaka Castle</h5>
-          </a>
-          <div class="slider__box">
-            <a class="slider__place" href="#">Japan</a>
-            <div class="slider__star"></div>
-            <span class="slider__rating">4.6</span>
-          </div>
-          <p class="slider__text">4 Day 5 Nights</p>
-          <p class="slider__price">$700/ <span>person</span></p>
-        </li>
-
-
-
-        <li class="slider__item">
-          <img class="slider__img" src="images/slider/1.jpg" alt="nature">
-          <a class="slider__link" href="#">
-            <h5 class="slider__title">Statue of Liberty.</h5>
-          </a>
-          <div class="slider__box">
-            <a class="slider__place" href="#">New York</a>
-            <div class="slider__star"></div>
-            <span class="slider__rating">4.5</span>
-          </div>
-          <p class="slider__text">4 Day 5 Nights</p>
-          <p class="slider__price">$450/ <span>person</span></p>
-        </li>
-
-        <li class="slider__item">
-          <img class="slider__img" src="images/slider/2.jpg" alt="nature">
-          <a class="slider__link" href="#">
-            <h5 class="slider__title">The Great Wall</h5>
-          </a>
-          <div class="slider__box">
-            <a class="slider__place" href="#">China</a>
-            <div class="slider__star"></div>
-            <span class="slider__rating">4.9</span>
-          </div>
-          <p class="slider__text">7 Day 8 Nights</p>
-          <p class="slider__price" href="#">$850/ <span>person</span></p>
-        </li>
-
-        <li class="slider__item">
-          <img class="slider__img" src="images/slider/3.jpg" alt="nature">
-          <a class="slider__link" href="#">
-            <h5 class="slider__title">Dizin</h5>
-          </a>
-          <div class="slider__box">
-            <a class="slider__place" href="#">Iran</a>
-            <div class="slider__star"></div>
-            <span class="slider__rating">4.8</span>
-          </div>
-          <p class="slider__text">5 Day 6 Nights</p>
-          <p class="slider__price">$550/ <span>person</span></p>
-        </li>
-
-        <li class="slider__item">
-          <img class="slider__img" src="images/slider/4.jpg" alt="nature">
-          <a class="slider__link" href="#">
-            <h5 class="slider__title">Sajek Valley</h5>
-          </a>
-          <div class="slider__box">
-            <a class="slider__place" href="#">Bangladesh</a>
-            <div class="slider__star"></div>
-            <span class="slider__rating">4.7</span>
-          </div>
-          <p class="slider__text">3 Day 4 Nights</p>
-          <p class="slider__price">$400/ <span>person</span></p>
-        </li>
-
-        <li class="slider__item">
-          <img class="slider__img" src="images/slider/5.jpg" alt="nature">
-          <a class="slider__link" href="#">
-            <h5 class="slider__title">Osaka Castle</h5>
-          </a>
-          <div class="slider__box">
-            <a class="slider__place" href="#">Japan</a>
-            <div class="slider__star"></div>
-            <span class="slider__rating">4.6</span>
-          </div>
-          <p class="slider__text">4 Day 5 Nights</p>
-          <p class="slider__price">$700/ <span>person</span></p>
-        </li>
-      </ul>
+      <div class="slider__item">
+        <img class="slider__img" src="images/slider/4.jpg" alt="nature">
+        <a class="slider__link" href="#">
+          <h5 class="slider__title">Sajek Valley</h5>
+        </a>
+        <div class="slider__box">
+          <a class="slider__place" href="#">Bangladesh</a>
+          <div class="slider__star"></div>
+          <span class="slider__rating">4.7</span>
+        </div>
+        <p class="slider__text">3 Day 4 Nights</p>
+        <p class="slider__price">$400/ <span>person</span></p>
+      </div>
     </div>
   </section>
+
 
   <section class="news">
     <div class="container">
@@ -408,7 +351,7 @@
       </div>
     </div>
   </section>
-
+<!-- 
   <footer class="footer">
     <div class="footer__container container">
       <div class="footer__social">
@@ -487,7 +430,7 @@
         </form>
       </div>
     </div>
-  </footer>
+  </footer> -->
 
 
 
